@@ -8,20 +8,20 @@ app.use(morgan('combined'));
 
 var Articles={
     ArticleOne:{
-    title: "Article One", 
-    heading : "ARTICLE ONE",
+    title: `Article One`, 
+    heading : `ARTICLE ONE`,
     content: `<p>
                     This is my first IMAD nptel project feeling good This is my first IMAD nptel project feeling good This is my first IMAD nptel project feeling good This is my first IMAD nptel project feeling good
                 </p>`
     },
     ArticleTwo:{
-        title: "Article Two | Abhishek",
-        heading: "ARTICLE TWO",
+        title: `Article Two | Abhishek`,
+        heading: `ARTICLE TWO`,
         content: `<p> This is my Second Page</p>`
     },
     ArticleThree:{
-        title: "Article Three | Abhishek",
-        heading: "ARTICLE THREE",
+        title: `Article Three | Abhishek`,
+        heading: `ARTICLE THREE`,
         content: `<p> This is my Third Page</p>`}
 };
 
