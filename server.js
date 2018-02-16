@@ -7,25 +7,25 @@ app.use(morgan('combined'));
 
 
 var Articles={
-    ArticleOne:{
-    title: `Article One`, 
-    heading : `ARTICLE ONE`,
+    'article1':{
+    title: 'Article One', 
+    heading : 'ARTICLE ONE',
     content: `<p>
                     This is my first IMAD nptel project feeling good This is my first IMAD nptel project feeling good This is my first IMAD nptel project feeling good This is my first IMAD nptel project feeling good
                 </p>`
     },
-    ArticleTwo:{
-        title: `Article Two | Abhishek`,
-        heading: `ARTICLE TWO`,
+    'article2':{
+        title: 'Article Two | Abhishek',
+        heading: 'ARTICLE TWO',
         content: `<p> This is my Second Page</p>`
     },
-    ArticleThree:{
-        title: `Article Three | Abhishek`,
-        heading: `ARTICLE THREE`,
+    'article3':{
+        title: 'Article Three | Abhishek',
+        heading: 'ARTICLE THREE',
         content: `<p> This is my Third Page</p>`}
 };
 
-function createTemplate(data){
+function createTemplate(data) {
     var title = data.title;
     var heading = data.heading;
     var content = data.content;
