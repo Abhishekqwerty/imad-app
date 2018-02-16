@@ -60,7 +60,7 @@ return htmlTemplate;
 }
 
 app.get('/:article', function(req,res){
-    var articleName = req.param.articleName;
+    var articleName = req.params.articleName;
     res.send(createTemplate(Articles[article]));
 });
 
